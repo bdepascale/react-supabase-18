@@ -26,6 +26,7 @@ export default defineConfig({
             }),
             compilerOptions: {
                 emitDeclarationOnly: true,
+                declaration: true,
                 noEmit: false,
             },
             outputDir: 'dist/types',

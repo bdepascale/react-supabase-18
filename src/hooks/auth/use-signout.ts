@@ -1,4 +1,4 @@
-import { ApiError } from '@supabase/gotrue-js/dist/main/GoTrueApi'
+import { ApiError } from '@supabase/gotrue-js/dist/main/lib/types'
 import { useCallback, useState } from 'react'
 
 import { useClient } from '../use-client'

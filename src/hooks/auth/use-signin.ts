@@ -1,5 +1,5 @@
 import { Provider, Session, User, UserCredentials } from '@supabase/gotrue-js'
-import { ApiError } from '@supabase/gotrue-js/dist/main/GoTrueApi'
+import { ApiError } from '@supabase/gotrue-js/dist/main/lib/types'
 import { useCallback, useState } from 'react'
 
 import { useClient } from '../use-client'
